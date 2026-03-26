@@ -131,13 +131,13 @@
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js';
     import { getFirestore, collection, addDoc, updateDoc, deleteDoc, doc, serverTimestamp, onSnapshot, query, orderBy, getDocs } from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js';
 
-    const FIREBASE_CONFIG = {
-  apiKey: "AIzaSy.......",
-  authDomain: "ten-du-an.firebaseapp.com",
-  projectId: "ten-du-an",
-  storageBucket: "ten-du-an.firebasestorage.app",
-  messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abcxyz123"
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyAtBzX_HYGAhwfdlStszVzYSCXLcM0uyRk",
+  authDomain: "food-b9752.firebaseapp.com",
+  projectId: "food-b9752",
+  storageBucket: "food-b9752.firebasestorage.app",
+  messagingSenderId: "914205494596",
+  appId: "1:914205494596:web:542b66c6e55acb9d9c5b11"
 };
     const LS_KEY='food_share_compact_v2'; const DEFAULT_CITY='Đà Nẵng';
     const RATING_ORDER={ 'Rất nên thử':4,'Ngon':3,'Tạm ổn':2,'Ăn cho biết':1 };
